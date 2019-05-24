@@ -1,11 +1,12 @@
 {
-  "name": "react-mathjax2",
-  "version": "0.0.2",
-  "description": "React component for MathJax",
+  "name": "react-mathjax3",
+  "version": "1.0.0",
+  "description": "React component for MathJax with by default TeX-AMS_HTML",
   "main": "./lib/index.js",
+  "author": "Shankar Morwal (shankar@habilelabs.io)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wko27/react-mathjax.git"
+    "url": "git+https://github.com/habilelabs/react-mathjax.git"
   },
   "scripts": {
     "build": "babel --out-dir ./lib ./src"
@@ -20,14 +21,15 @@
     "asciimath",
     "latex",
     "tex",
-    "mathml"
+    "mathml",
+    "TeX-AMS_HTML"
   ],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wko27/react-mathjax/issues"
+    "url": "https://github.com/habilelabs/react-mathjax/issues"
   },
-  "homepage": "https://github.com/wko27/react-mathjax#readme",
+  "homepage": "https://github.com/habilelabs/react-mathjax#readme",
   "dependencies": {
     "load-script": "^1.0.0",
     "prop-types": "^15.6.0",

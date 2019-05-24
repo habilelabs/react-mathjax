@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/react-mathjax2.svg)](https://badge.fury.io/js/react-mathjax2)
 
-React component to display math formulas written in AsciiMath or TeX.
+React component to display math formulas written in AsciiMath or TeX with by default profile TeX-AMS_HTML. Profile can be updated by passing stat props. 
 
 ![Example of usage](/example.gif)
 
@@ -157,8 +157,11 @@ module.exports = () => {
 #### `noGate` (Boolean)
 - Defaults to `false`, controls whether to disallow rendering of children components until the MathJax script has finished loading
 
+#### How to build code. 
+- Checkout code. npm install then change and finally run npm run build. 
+
 ## Acknowledgements
-- This project was forked from [MatejMazur](https://github.com/MatejMazur) ([react-mathjax](https://github.com/MatejMazur/react-mathjax)).
+- This project was forked from [Wing-Hong Andrew Ko](https://github.com/wko27) ([react-mathjax](https://github.com/wko27/react-mathjax)).
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
