@@ -1,6 +1,6 @@
 {
   "name": "react-mathjax4",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React component for MathJax with by default TeX-AMS_HTML",
   "main": "./lib/index.js",
   "author": "",
